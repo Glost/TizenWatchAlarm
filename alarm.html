@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<title>Alarm</title>
+<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
+<link rel="stylesheet" href="css/alarm.css" />
+</head>
+<body>
+    <div class="ui-page ui-page-active" id="main">
+		<header class="ui-header">
+			<h2 class="ui-title">Alarm</h2>
+		</header>
+		<div class="ui-content content-padding">
+			<div id="time"></div>
+		</div>
+		<div class="ui-footer ui-grid-col-2">
+		    <button class="ui-btn ui-btn-footer-icon btn-apply" id="options-ok-btn">Ok</button>
+		    <button class="ui-btn ui-btn-footer-icon btn-erase" id="options-plus10min-btn">+10m</button>
+		</div>
+	</div>
+	
+	<script src="alarm.js"></script>
+</body>
+</html>

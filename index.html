@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>Set alarm</title>
+	<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
+	<!-- load theme file for your application -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<input type="time" id="input-time" />
+	<div class="ui-page ui-page-active" id="main">
+		<header class="ui-header">
+			<h2 class="ui-title">Set alarm</h2>
+		</header>
+		<div class="ui-content content-padding">
+			<button class="ui-btn ui-btn-footer-icon btn-apply" id="set-alarm-btn">Set alarm</button>
+		</div>
+		<!-- <div class="ui-footer">
+		    <button class="ui-btn ui-btn-footer-icon btn-apply" id="options-ok-btn">Ok</button>
+		</div> -->
+	</div>
+	<script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>
+	<script type="text/javascript" src="js/circle-helper.js"></script>
+	<script src="app.js"></script>
+	<script src="lowBatteryCheck.js"></script>
+</body>
+</html>
